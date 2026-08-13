@@ -15,19 +15,21 @@ npx skills add gmickel/obsidian-skill
 
 1. [Obsidian](https://obsidian.md) 1.12+
 2. Enable CLI: **Settings > General > Command line interface** > follow registration prompt
-3. Restart terminal (`obsidian` should be in PATH)
+3. Restart the terminal. Depending on platform and installer, the registered
+   executable may be `obsidian` or `obsidian-cli`; the skill probes candidates
+   with the official `version` command before use.
 
 ## What's included
 
 | File | Covers |
 |------|--------|
-| `SKILL.md` | Quick-start syntax, 5 core operations, reference navigation |
+| `SKILL.md` | Capability probe, vault targeting, safety rules, core operations, reference navigation |
 | `references/note-operations.md` | Read, create, append, prepend, move, delete, outline, word count, unique notes |
 | `references/search-metadata.md` | Search, tags, properties, aliases, backlinks, orphans, unresolved links |
 | `references/daily-tasks-templates.md` | Daily notes, tasks, templates |
 | `references/vault-management.md` | Vault info, files/folders, bookmarks, plugins, workspaces, themes, sync, publish, bases, dev tools |
 
-The skill uses progressive disclosure: agents load the lean `SKILL.md` on activation (~900 tokens) and pull in reference files on demand.
+The skill uses progressive disclosure: agents load the core workflow on activation and pull in reference files on demand. It contains no personal vault names or machine-specific user paths.
 
 ## Compatibility
 

@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
-  "date": "February 2026",
-  "abstract": "Full Obsidian CLI skill for AI agents. Read, create, search, and organize notes in Obsidian vaults. Covers daily notes, tags, properties, tasks, templates, bookmarks, plugins, knowledge graph analysis, and developer tools. Based on the official Obsidian 1.12+ CLI.",
+  "version": "1.1.0",
+  "date": "August 2026",
+  "abstract": "Obsidian CLI skill for AI agents. Resolves and probes the official CLI across platforms, targets arbitrary vaults explicitly, separates app-runtime operations from ordinary filesystem work, and applies safety boundaries to destructive or host-session-affecting commands.",
   "references": [
     "https://help.obsidian.md/cli",
     "https://obsidian.md"
